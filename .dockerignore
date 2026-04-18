@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+*.pyo
+.git/
+.gitignore
+.env
+data/
+*.parquet
+*.csv
+mlruns/
+*.ipynb
+.pytest_cache/
+test_app.py
+README.md
+*.md

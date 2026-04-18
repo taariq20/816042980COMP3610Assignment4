@@ -1,0 +1,26 @@
+# Data files
+data/
+*.parquet
+*.csv
+
+# Model artifacts
+models/
+
+# MLflow tracking
+mlruns/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+*.egg-info/
+
+# Environment
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Pytest
+.pytest_cache/
