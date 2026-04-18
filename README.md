@@ -1,4 +1,4 @@
-# COMP 3610 Assignment 4 � MLOps & Model Deployment
+# COMP 3610 Assignment 4: MLOps & Model Deployment
 
 ## Prerequisites
 - Python 3.10+
@@ -30,8 +30,8 @@ docker compose up --build
 pytest test_app.py -v
 
 ## API Endpoints
-- GET  /health        � API and model status
-- GET  /model/info    � Model metadata
-- POST /predict       � Single trip prediction
-- POST /predict/batch � Batch predictions (up to 100)
-- GET  /docs          � Swagger UI documentation
+- GET  /health - API and model status
+- GET  /model/info - Model metadata
+- POST /predict - Single trip prediction
+- POST /predict/batch - Batch predictions (up to 100)
+- GET  /docs - Swagger UI documentation
